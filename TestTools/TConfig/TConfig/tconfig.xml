@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestConfig>
+  <Studio13>
+    <TestEnvironment>
+      <InstallScriptLocation>c:\Studio13\install</InstallScriptLocation>
+    </TestEnvironment>
+    <Application>
+      <Presenter></Presenter>
+      <Engage></Engage>
+      <QuizMaker></QuizMaker>
+    </Application>
+  </Studio13>
+</TestConfig>

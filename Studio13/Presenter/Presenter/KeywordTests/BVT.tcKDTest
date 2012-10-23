@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="9.0">
+	<TestData Description="" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="SetResultsOutputPath" Unit="Environment">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="testproject" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ProjectName" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="Launch" Unit="PowerPtFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="SaveAs" Unit="PowerPtFunctions">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="filename" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Filename" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="ClickArticulateTab" Unit="PowerPtFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertCharacter" Unit="ArticulateTabFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="Preview" Unit="ArticulateTabFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="PublishToWeb" Unit="ArticulateTabFunctions">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="title" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="PresentationTitle" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="FileSave" Unit="PowerPtFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="FileExit" Unit="PowerPtFunctions" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" />
+	<Parameters>
+		<Parameter0 Name="Filename" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="Presenter_BVT.pptx" Description="" />
+		<Parameter1 Name="PresentationTitle" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="Presenter_Bvt" Description="" />
+		<Parameter2 Name="ProjectName" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="BVT" Description="" />
+		<Parameter3 Name="OutputPathRoot" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="C:\Studio13Tests\Presenter\" Description="" />
+	</Parameters>
+</Root>
