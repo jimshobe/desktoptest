@@ -13,6 +13,7 @@ namespace TConfig
 
         //xpath definitions
         private string m_xInstalledBuildNumber = "Studio13/TestEnvironment/InstallScriptLocation";
+        private string m_xResultsOutputPath = "Studio13/TestEnvironment/ResultsOutputPath";
 
         public TConfig(string path)
         {
@@ -37,5 +38,43 @@ namespace TConfig
 
             return sBuildNumber;
         }
+
+        public string ResultsOutputPath(string projectName)
+        {
+            //read results path root dir from xml
+            XmlNode root = m_doc.DocumentElement; 
+            string sResultsOutputPath = root.SelectSingleNode(m_xResultsOutputPath).InnerText;
+
+            //append path with build number and create dir if needed
+            sResultsOutputPath += "\\" + InstalledBuildNumber();
+            if (!Directory.Exists(sResultsOutputPath))
+                Directory.CreateDirectory(sResultsOutputPath);
+
+            //append path with projectname
+            sResultsOutputPath += "\\" + projectName;
+
+            //create dir if it does not already exists
+            if (!Directory.Exists(sResultsOutputPath))
+            {
+                Directory.CreateDirectory(sResultsOutputPath);
+            }
+            else //append dir name with _i to ensure uniqueness
+            {
+                string temp = sResultsOutputPath;
+                int i = 0;
+                while (Directory.Exists(temp))
+                {
+                    i++;
+                    temp = sResultsOutputPath;
+                    temp += "_" + i;
+                }
+
+                sResultsOutputPath = temp;
+                Directory.CreateDirectory(sResultsOutputPath);
+            }
+
+            return sResultsOutputPath;
+        }
     }
 }
+
