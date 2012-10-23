@@ -8,7 +8,7 @@ Dim installResponseFileName
 Dim uninstallResponseFileName
 Dim installerLocation
 
-scriptLocation = "C:\git\desktoptest\Studio13\install\"
+scriptLocation = "C:\Users\regular-user\Documents\GitHub\desktop-Test\Studio13\install\"
 dropBoxRoot = "C:\Dropbox\"
 
 dropBoxBuildPath = dropBoxRoot & "Builds\Studio Debug\2.0\"
@@ -53,8 +53,6 @@ objFSO.CreateFolder installerLocation
 objFSO.CopyFile dropBoxBuildPath, installerLocation
 
 '***** run installer
-Wscript.echo installerLocation & installerName & " -s -f1" & chr(34) & scriptLocation & installResponseFileName & chr(34)
-
 objShell.Run installerLocation & installerName & " -s -f1" & chr(34) & scriptLocation & installResponseFileName & chr(34) & " -sms",,TRUE
 
 
