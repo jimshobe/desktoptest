@@ -18,7 +18,16 @@ namespace TConfig
         public TConfig(string path)
         {
             m_doc = new XmlDocument();
-            m_doc.Load(path);
+
+            try
+            {
+                m_doc.Load(path);
+            }
+            catch (Exception e)
+            {
+                string msg = "Unable to load xml. Check the path: " + path);
+                throw new ApplicationException(msg);
+            }
         }
 
         public string InstalledBuildNumber()
