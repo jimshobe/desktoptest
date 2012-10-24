@@ -79,34 +79,18 @@
 		</Node>
 		<Node name="files">
 			<Node name="keywordtests\bvt.tckdtest"/>
+			<Node name="keywordtests\copyresultsfile.tckdtest"/>
 			<Node name="keywordtests\keywordtests.tckdt"/>
-			<Node name="keywordtests\mc.tckdtest"/>
+			<Node name="keywordtests\preview.tckdtest"/>
+			<Node name="keywordtests\publish.tckdtest"/>
+			<Node name="keywordtests\test1.tckdtest"/>
 			<Node name="keywordtests\visualizer\bvt_tckdtest\bvt.tckdtest.tcvis"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\mc.tckdtest.tcvis"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45360.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45360.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45361.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45361.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi453617.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi453617.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi453618.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi453618.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45362.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45362.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45363.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45363.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45364.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45364.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45365.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45365.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45366.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45366.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45367.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45367.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45368.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45368.xml"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45369.png"/>
-			<Node name="keywordtests\visualizer\mc_tckdtest\tcvi45369.xml"/>
+			<Node name="keywordtests\visualizer\copyresultsfile_tckdtest\copyresultsfile.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\preview_tckdtest\preview.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48800.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48800.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="quizmaker.mds"/>
 			<Node name="script\environment.sj"/>
@@ -655,7 +639,23 @@
 			<Prp name="settingsversion" type="S" value="9.0"/>
 		</Node>
 		<Node name="test data">
-			<Node name="child list"/>
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{BA49B578-458F-4A8A-993A-DABC01C36A68}"/>
+					<Prp name="name" type="S" value="ProjectTestItem1"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value="KDT\{9FBAD3FF-6017-462A-9A3A-FE771CD8B307}"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
 			<Prp name="key" type="S" value="{2554F5ED-3D35-4617-B70C-7DA512CB1A42}"/>
 		</Node>
 		<Node name="variables">

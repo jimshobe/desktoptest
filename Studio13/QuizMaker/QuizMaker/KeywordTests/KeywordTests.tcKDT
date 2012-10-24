@@ -32,30 +32,40 @@
 			</Node>
 			<Node name="item0000000001">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test1.tcKDTest"/>
+					<Prp name="relpath" type="S" value="Publish.tcKDTest"/>
 				</Node>
 				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{C7AEE0C8-FC8E-431C-A57C-765C166FA880}"/>
+				<Prp name="key" type="S" value="{AF90E1EB-6D22-4261-A1A0-789514C2568F}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
 			<Node name="item0000000002">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Publish.tcKDTest"/>
+					<Prp name="relpath" type="S" value="CopyResultsFile.tcKDTest"/>
 				</Node>
 				<Prp name="index" type="I" value="2"/>
-				<Prp name="key" type="S" value="{AF90E1EB-6D22-4261-A1A0-789514C2568F}"/>
+				<Prp name="key" type="S" value="{C8B1153B-EC78-43A8-8562-8010A9A1C077}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
 			<Node name="item0000000003">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="CopyResultsFile.tcKDTest"/>
+					<Prp name="relpath" type="S" value="Preview.tcKDTest"/>
 				</Node>
 				<Prp name="index" type="I" value="3"/>
-				<Prp name="key" type="S" value="{C8B1153B-EC78-43A8-8562-8010A9A1C077}"/>
+				<Prp name="key" type="S" value="{C7E356ED-D980-4C1B-BB4F-5E8359FF8FDF}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test1.tcKDTest"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{3D1F353E-AC32-4F1F-83EF-219B6FD057D4}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>

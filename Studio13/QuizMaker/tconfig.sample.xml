@@ -5,10 +5,11 @@
       <InstallScriptLocation>C:\git\desktoptest\Studio13\install</InstallScriptLocation>
       <ResultsOutputPath>c:\TestResults</ResultsOutputPath>
     </TestEnvironment>
-    <Application>
+    <TestData>
+      <ActivationKey>test</ActivationKey>
       <Presenter></Presenter>
       <Engage></Engage>
       <QuizMaker></QuizMaker>
-    </Application>
+    </TestData>
   </Studio13>
 </TestConfig>
