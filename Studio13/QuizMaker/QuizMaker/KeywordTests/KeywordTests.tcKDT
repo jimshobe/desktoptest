@@ -32,6 +32,12 @@
 			</Node>
 			<Node name="item0000000001">
 				<Node name="item data">
+<<<<<<< HEAD
+					<Prp name="relpath" type="S" value="MC.tcKDTest"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{F7921406-7189-4F2F-91DE-2620EB05B705}"/>
+=======
 					<Prp name="relpath" type="S" value="Test1.tcKDTest"/>
 				</Node>
 				<Prp name="index" type="I" value="1"/>
@@ -56,6 +62,7 @@
 				</Node>
 				<Prp name="index" type="I" value="3"/>
 				<Prp name="key" type="S" value="{C8B1153B-EC78-43A8-8562-8010A9A1C077}"/>
+>>>>>>> 38ce345db5856e3f6355258802b4fe613dfa101b
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
