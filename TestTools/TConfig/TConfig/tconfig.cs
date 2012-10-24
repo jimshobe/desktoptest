@@ -14,6 +14,7 @@ namespace TConfig
         //xpath definitions
         private string m_xInstalledBuildNumber = "Studio13/TestEnvironment/InstallScriptLocation";
         private string m_xResultsOutputPath = "Studio13/TestEnvironment/ResultsOutputPath";
+        private string m_xActivationKey = "Studio13/TestData/ActivationKey";
 
         public TConfig(string path)
         {
@@ -23,9 +24,9 @@ namespace TConfig
             {
                 m_doc.Load(path);
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                string msg = "Unable to load xml. Check the path: " + path);
+                string msg = "Unable to load xml. Check the path: " + path;
                 throw new ApplicationException(msg);
             }
         }
@@ -83,6 +84,12 @@ namespace TConfig
             }
 
             return sResultsOutputPath;
+        }
+
+        public string ActivationKey()
+        {
+            XmlNode root = m_doc.DocumentElement;
+            return root.SelectSingleNode(m_xActivationKey).InnerText;
         }
     }
 }
