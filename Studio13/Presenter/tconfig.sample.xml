@@ -2,14 +2,12 @@
 <TestConfig>
   <Studio13>
     <TestEnvironment>
-      <InstallScriptLocation>C:\git\desktoptest\Studio13\install</InstallScriptLocation>
-      <ResultsOutputPath>c:\TestResults</ResultsOutputPath>
+      <InstallScriptLocation>c:\Studio13\install</InstallScriptLocation>
     </TestEnvironment>
-    <TestData>
-      <ActivationKey>test</ActivationKey>
+    <Application>
       <Presenter></Presenter>
       <Engage></Engage>
       <QuizMaker></QuizMaker>
-    </TestData>
+    </Application>
   </Studio13>
 </TestConfig>
