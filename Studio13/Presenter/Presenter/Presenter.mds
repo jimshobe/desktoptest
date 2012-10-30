@@ -585,9 +585,11 @@
 				<Prp name="col1type" type="I" value="1"/>
 				<Prp name="colcount" type="I" value="2"/>
 				<Prp name="colindex" type="I" value="1"/>
-				<Prp name="rowcount" type="I" value="0"/>
-				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
 				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="C:\Users\regular-user\Documents\GitHub\desktop-Test\TestTools\TConfig\TConfig\bin\Debug\TConfig.dll"/>
+				<Prp name="val1x0" type="B" value="0"/>
 			</Node>
 			<Node name="countprocessesofallusers">
 				<Prp name="type" type="I" value="1"/>
