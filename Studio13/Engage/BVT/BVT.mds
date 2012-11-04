@@ -648,7 +648,7 @@
 				<Prp name="rowcount" type="I" value="1"/>
 				<Prp name="rowindex" type="I" value="0"/>
 				<Prp name="type" type="I" value="6"/>
-				<Prp name="val0x0" type="S" value="C:\git\desktoptest\TestTools\TConfig\TConfig\bin\Debug\TConfig.dll"/>
+				<Prp name="val0x0" type="S" value="..\..\..\TestTools\TConfig\TConfig\bin\Debug\TConfig.dll"/>
 				<Prp name="val1x0" type="B" value="0"/>
 			</Node>
 			<Node name="countprocessesofallusers">
