@@ -8,7 +8,7 @@ Dim installResponseFileName
 Dim uninstallResponseFileName
 Dim installerLocation
 
-scriptLocation = "C:\Users\regular-user\Documents\GitHub\desktop-Test\Studio13\install\"
+scriptLocation = "C:\git\desktoptest\Studio13\install\"
 dropBoxRoot = "C:\Dropbox\"
 
 dropBoxBuildPath = dropBoxRoot & "Builds\Studio Debug\2.0\"
