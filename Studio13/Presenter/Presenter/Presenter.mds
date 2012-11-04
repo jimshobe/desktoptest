@@ -78,6 +78,8 @@
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
 		</Node>
 		<Node name="files">
+			<Node name="..\..\common\environment.sj"/>
+			<Node name="..\..\common\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="keywordtests\bvt.tckdtest"/>
 			<Node name="keywordtests\clickarticulatetab.tckdtest"/>
 			<Node name="keywordtests\copyresultsfiles.tckdtest"/>
@@ -170,7 +172,6 @@
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="presenter.mds"/>
 			<Node name="script\articulatetabfunctions.sj"/>
-			<Node name="script\environment.sj"/>
 			<Node name="script\powerptfunctions.sj"/>
 			<Node name="script\script.tcscript"/>
 			<Node name="script\visualizer\articulatetabfunctions_sj\articulatetabfunctions.sj.tcvis"/>
@@ -188,7 +189,6 @@
 			<Node name="script\visualizer\articulatetabfunctions_sj\tcvi415614.xml"/>
 			<Node name="script\visualizer\articulatetabfunctions_sj\tcvi41568.png"/>
 			<Node name="script\visualizer\articulatetabfunctions_sj\tcvi41568.xml"/>
-			<Node name="script\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="script\visualizer\powerptfunctions_sj\powerptfunctions.sj.tcvis"/>
 			<Node name="script\visualizer\powerptfunctions_sj\tcvi427320.png"/>
 			<Node name="script\visualizer\powerptfunctions_sj\tcvi427320.xml"/>

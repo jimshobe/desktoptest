@@ -78,6 +78,8 @@
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
 		</Node>
 		<Node name="files">
+			<Node name="..\..\common\environment.sj"/>
+			<Node name="..\..\common\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="keywordtests\allquestions.tckdtest"/>
 			<Node name="keywordtests\bvt.tckdtest"/>
 			<Node name="keywordtests\copyresultsfile.tckdtest"/>
@@ -113,10 +115,8 @@
 			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="quizmaker.mds"/>
-			<Node name="script\environment.sj"/>
 			<Node name="script\quizmakerfunctions.sj"/>
 			<Node name="script\script.tcscript"/>
-			<Node name="script\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\quizmakerfunctions.sj.tcvis"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi33920.png"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi33920.xml"/>

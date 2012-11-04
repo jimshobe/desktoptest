@@ -78,6 +78,8 @@
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
 		</Node>
 		<Node name="files">
+			<Node name="..\..\common\environment.sj"/>
+			<Node name="..\..\common\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="bvt.mds"/>
 			<Node name="keywordtests\copyresultsfile.tckdtest"/>
 			<Node name="keywordtests\inittestenvironment.tckdtest"/>
@@ -156,7 +158,6 @@
 			<Node name="keywordtests\visualizer\shutdownandsave_tckdtest\shutdownandsave.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="script\engagefunctions.sj"/>
-			<Node name="script\environment.sj"/>
 			<Node name="script\script.tcscript"/>
 			<Node name="script\visualizer\engagefunctions_sj\engagefunctions.sj.tcvis"/>
 			<Node name="script\visualizer\engagefunctions_sj\tcvi38720.png"/>
@@ -169,7 +170,6 @@
 			<Node name="script\visualizer\engagefunctions_sj\tcvi387222.xml"/>
 			<Node name="script\visualizer\engagefunctions_sj\tcvi38725.png"/>
 			<Node name="script\visualizer\engagefunctions_sj\tcvi38725.xml"/>
-			<Node name="script\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="stores\stores.tcstores"/>
 			<Node name="testedapps\testedapps.tctas"/>
 		</Node>

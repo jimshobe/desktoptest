@@ -63,7 +63,20 @@
 			<Prp name="key" type="S" value="{3E2062AA-08C9-4431-807A-297E546B13A2}"/>
 		</Node>
 		<Node name="variables">
+			<Node name="datav3">
+				<Node name="var0">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="StudioActivationKey"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+			</Node>
 			<Prp name="key" type="S" value="{AA5383E0-F79A-42AA-A4F5-84A349566BF5}"/>
+			<Prp name="version" type="I" value="3"/>
 		</Node>
 		<Prp name="key" type="S" value="{B7DD0377-11C8-40D4-9FAB-8F0D2BEA48FC}"/>
 		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>

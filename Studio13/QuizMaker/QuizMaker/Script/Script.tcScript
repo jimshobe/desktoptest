@@ -32,10 +32,10 @@
 			</Node>
 			<Node name="item0000000001">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Environment.sj"/>
+					<Prp name="relpath" type="S" value="..\..\..\Common\Environment.sj"/>
 				</Node>
 				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{7C4AA107-A2D8-440C-A78A-59AC38574B10}"/>
+				<Prp name="key" type="S" value="{39846DD9-58D0-4FD5-8EBC-A604320BFF2C}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
