@@ -74,6 +74,16 @@
 					<Prp name="name" type="S" value="StudioActivationKey"/>
 					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
 				</Node>
+				<Node name="var1">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="TestDataDir"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
 			</Node>
 			<Prp name="key" type="S" value="{7A69AFEF-B759-41A1-B167-F7E43946CEFF}"/>
 			<Prp name="version" type="I" value="3"/>
