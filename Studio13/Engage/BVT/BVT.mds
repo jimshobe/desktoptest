@@ -125,10 +125,6 @@
 			<Node name="keywordtests\visualizer\insertaccordion_tckdtest\tcvi496452.png"/>
 			<Node name="keywordtests\visualizer\insertaccordion_tckdtest\tcvi496452.xml"/>
 			<Node name="keywordtests\visualizer\launchengage_tckdtest\launchengage.tckdtest.tcvis"/>
-			<Node name="keywordtests\visualizer\launchengage_tckdtest\tcvi47760.png"/>
-			<Node name="keywordtests\visualizer\launchengage_tckdtest\tcvi47760.xml"/>
-			<Node name="keywordtests\visualizer\launchengage_tckdtest\tcvi60720.png"/>
-			<Node name="keywordtests\visualizer\launchengage_tckdtest\tcvi60720.xml"/>
 			<Node name="keywordtests\visualizer\preview_tckdtest\preview.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\preview_tckdtest\tcvi45560.png"/>
 			<Node name="keywordtests\visualizer\preview_tckdtest\tcvi45560.xml"/>
@@ -170,6 +166,8 @@
 			<Node name="script\visualizer\engagefunctions_sj\tcvi387222.xml"/>
 			<Node name="script\visualizer\engagefunctions_sj\tcvi38725.png"/>
 			<Node name="script\visualizer\engagefunctions_sj\tcvi38725.xml"/>
+			<Node name="script\visualizer\engagefunctions_sj\tcvi60720.png"/>
+			<Node name="script\visualizer\engagefunctions_sj\tcvi60720.xml"/>
 			<Node name="stores\stores.tcstores"/>
 			<Node name="testedapps\testedapps.tctas"/>
 		</Node>
