@@ -15,6 +15,9 @@
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertGradedHotspot" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="LaunchQMAlways" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
