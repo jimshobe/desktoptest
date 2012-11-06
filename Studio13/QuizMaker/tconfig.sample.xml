@@ -4,6 +4,7 @@
     <TestEnvironment>
       <InstallScriptLocation>C:\git\desktoptest\Studio13\install</InstallScriptLocation>
       <ResultsOutputPath>c:\TestResults</ResultsOutputPath>
+      <TestDataDir>C:\git\desktoptest\Studio13\test_files</TestDataDir>
     </TestEnvironment>
     <TestData>
       <ActivationKey>test</ActivationKey>

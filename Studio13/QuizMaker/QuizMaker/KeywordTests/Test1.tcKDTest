@@ -350,6 +350,125 @@
 					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.exMainForm.panelProject.tabControl.CustomTabPage.exSlideView.BaseUserControl.FillInBlankInteractionControl.panelMainContainer.panelMain.gridListChoices.ListPanel.GridListInternal.Row_1.ConstantFontTextBox;" />
 				</Data>
 			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="76" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.ComboBoxEx32.ComboBox.Edit;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;the&#32;%p1&#32;item&#32;of&#32;the&#32;&apos;%n&apos;&#32;tree." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="|Desktop|Libraries|Documents" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink1.NamespaceTreeControl.SysTreeView32;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="35" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="45" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="46" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="40" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="46" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="40" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="48" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="42" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="61" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="137" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="67" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="46" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="472" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="14" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.WorkerW.ReBarWindow32.AddressBandRoot.msctls_progress32.BreadcrumbParent.ToolbarWindow32;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters&#32;%p1&#32;in&#32;the&#32;&apos;%n&apos;&#32;object." Action="Keys" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="^c" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.WorkerW.ReBarWindow32.AddressBandRoot.msctls_progress32.ComboBoxEx32.ComboBox.Edit;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="10" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.ComboBoxEx32.ComboBox.Edit;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="7" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.ComboBoxEx32.ComboBox.Edit;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters&#32;the&#32;text&#32;%p1&#32;in&#32;the&#32;&apos;%n&apos;&#32;text&#32;editor." Action="SetText" InvokeKind="-1">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Param1" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="TestDataDir" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.ComboBoxEx32;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks&#32;the&#32;&apos;%n&apos;&#32;button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.dlgInsertPicture.btnOpen;" />
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="3" />

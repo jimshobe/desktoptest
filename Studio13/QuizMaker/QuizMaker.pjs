@@ -81,7 +81,7 @@
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value="52006F006F00740020006400690072006500630074006F0072007900200063006F006E007400610069006E0069006E006700200073007500700070006F007200740069006E0067002000660069006C0065007300200066006F0072002000740065007300740069006E006700"/>
 					<Prp name="local" type="B" value="0"/>
-					<Prp name="name" type="S" value="TestFiles"/>
+					<Prp name="name" type="S" value="TestDataDir"/>
 					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
 				</Node>
 			</Node>
