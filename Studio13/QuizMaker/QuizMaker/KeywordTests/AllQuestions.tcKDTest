@@ -15,9 +15,6 @@
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertGradedHotspot" Unit="QuizMakerFunctions" />
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="LaunchQMAlways" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
@@ -27,13 +24,55 @@
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertTF" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDragDrop" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMultipleChoice" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMultipleResponse" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertFillInTheBlank" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertWordBank" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDragDrop" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDropDown" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertSequenceDragAndDrop" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertSequenceDropDown" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertNumeric" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertGradedHotspot" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertLikertScale" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertPickOne" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertPickMany" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertWhichWord" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertShortAnswer" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertEssay" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertRankingDragDrop" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertRankingDropDown" Unit="QuizMakerFunctions" />
@@ -42,7 +81,16 @@
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertHowMany" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertPickOne" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertFreeformDragDrop" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertFreeformPickOne" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertFreeformPickMany" Unit="QuizMakerFunctions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertTextEntry" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertFreeformHotspot" Unit="QuizMakerFunctions" />
