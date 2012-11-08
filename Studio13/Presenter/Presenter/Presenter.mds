@@ -73,6 +73,16 @@
 				<Prp name="type" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
 				<Prp name="typename" type="S" value="Keyword Testing"/>
 			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="Events\Events.tcAX"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{05255E35-BDC6-43E4-8424-3A4CB1FF9891}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}"/>
+				<Prp name="typename" type="S" value="Events"/>
+			</Node>
 		</Node>
 		<Node name="config">
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
@@ -80,6 +90,9 @@
 		<Node name="files">
 			<Node name="..\..\common\environment.sj"/>
 			<Node name="..\..\common\visualizer\environment_sj\environment.sj.tcvis"/>
+			<Node name="..\..\engage\bvt\script\eventhandlers.sj"/>
+			<Node name="..\..\engage\bvt\script\visualizer\eventhandlers_sj\eventhandlers.sj.tcvis"/>
+			<Node name="events\events.tcax"/>
 			<Node name="keywordtests\bvt.tckdtest"/>
 			<Node name="keywordtests\clickarticulatetab.tckdtest"/>
 			<Node name="keywordtests\copyresultsfiles.tckdtest"/>
@@ -232,6 +245,10 @@
 							<Prp name="index" type="I" value="0"/>
 							<Prp name="key" type="S" value="{5334B913-62DE-498F-A5DD-D313CD101C75}"/>
 						</Node>
+						<Node name="ref0000000001">
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{05255E35-BDC6-43E4-8424-3A4CB1FF9891}"/>
+						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="Advanced"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
@@ -329,7 +346,7 @@
 			</Node>
 			<Node name="{3ae91bbd-f37d-40e6-b49d-d2f1ef68e285}">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="0"/>
+				<Prp name="value" type="B" value="-1"/>
 			</Node>
 			<Node name="{3b76535b-58ad-456c-837e-091a5c480f6c}">
 				<Prp name="type" type="I" value="1"/>
@@ -868,12 +885,52 @@
 				</Node>
 				<Node name="var1">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="5400720075006500"/>
+						<Prp name="strvalue" type="H" value="7400720075006500"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>
 					<Prp name="local" type="B" value="0"/>
 					<Prp name="name" type="S" value="Pass"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var2">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value="7400720075006500"/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="SendMail"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var3">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="SendMailTo"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var4">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value="500072006500730065006E00740065007200420076007400"/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="-1"/>
+					<Prp name="name" type="S" value="ResultsUrl"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var5">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="-1"/>
+					<Prp name="name" type="S" value="ProjectName"/>
 					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
 				</Node>
 			</Node>
