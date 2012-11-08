@@ -138,8 +138,6 @@
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi33920.xml"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi339201.png"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi339201.xml"/>
-			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi33921.png"/>
-			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi33921.xml"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi339211.png"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi339211.xml"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\tcvi33922.png"/>
@@ -253,7 +251,7 @@
 			</Node>
 			<Node name="{3ae91bbd-f37d-40e6-b49d-d2f1ef68e285}">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="-1"/>
+				<Prp name="value" type="B" value="0"/>
 			</Node>
 			<Node name="{3b76535b-58ad-456c-837e-091a5c480f6c}">
 				<Prp name="type" type="I" value="1"/>
@@ -695,6 +693,21 @@
 					<Prp name="test moniker" type="S" value="KDT\{9FBAD3FF-6017-462A-9A3A-FE771CD8B307}"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
+				<Node name="item0000000001">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="1"/>
+					<Prp name="key" type="S" value="{C9719ED9-8662-49B0-A76E-0CC1CAADE476}"/>
+					<Prp name="name" type="S" value="ProjectTestItem2"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value="KDT\{A65DDB7B-4423-4A3F-A98A-A7A1416BF158}"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
 			</Node>
 			<Prp name="key" type="S" value="{2554F5ED-3D35-4617-B70C-7DA512CB1A42}"/>
 		</Node>
@@ -702,23 +715,23 @@
 			<Node name="datav3">
 				<Node name="var0">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="7400720075006500"/>
+						<Prp name="boolvalue" type="B" value="-1"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>
 					<Prp name="local" type="B" value="0"/>
 					<Prp name="name" type="S" value="Pass"/>
-					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+					<Prp name="type" type="S" value="{D25FDC80-E78F-4209-88B6-6FE2B0771206}"/>
 				</Node>
 				<Node name="var1">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="7400720075006500"/>
+						<Prp name="boolvalue" type="B" value="-1"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>
 					<Prp name="local" type="B" value="0"/>
 					<Prp name="name" type="S" value="SendMail"/>
-					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+					<Prp name="type" type="S" value="{D25FDC80-E78F-4209-88B6-6FE2B0771206}"/>
 				</Node>
 				<Node name="var2">
 					<Node name="defvalue">

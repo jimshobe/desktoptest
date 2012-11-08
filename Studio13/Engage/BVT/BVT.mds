@@ -848,13 +848,13 @@
 				</Node>
 				<Node name="var1">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="7400720075006500"/>
+						<Prp name="boolvalue" type="B" value="-1"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>
 					<Prp name="local" type="B" value="0"/>
 					<Prp name="name" type="S" value="Pass"/>
-					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+					<Prp name="type" type="S" value="{D25FDC80-E78F-4209-88B6-6FE2B0771206}"/>
 				</Node>
 				<Node name="var2">
 					<Node name="defvalue">
@@ -868,13 +868,13 @@
 				</Node>
 				<Node name="var3">
 					<Node name="defvalue">
-						<Prp name="strvalue" type="H" value="7400720075006500"/>
+						<Prp name="boolvalue" type="B" value="-1"/>
 					</Node>
 					<Prp name="category" type="H" value=" "/>
 					<Prp name="descr" type="H" value=" "/>
 					<Prp name="local" type="B" value="0"/>
 					<Prp name="name" type="S" value="SendMail"/>
-					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+					<Prp name="type" type="S" value="{D25FDC80-E78F-4209-88B6-6FE2B0771206}"/>
 				</Node>
 				<Node name="var4">
 					<Node name="defvalue">
