@@ -432,7 +432,7 @@
 			<Node name="stores\regions.tcregions"/>
 			<Node name="stores\regions\blankslidebutton.png"/>
 			<Node name="stores\regions\continuebutton.png"/>
-			<Node name="stores\regions\correctdummyfeedback.png"/>
+			<Node name="stores\regions\defaultcorrectfeedback.png"/>
 			<Node name="stores\regions\dummyanswer1.png"/>
 			<Node name="stores\regions\dummyslideweboutput.png"/>
 			<Node name="stores\regions\submitbutton.png"/>
@@ -744,7 +744,7 @@
 			</Node>
 			<Node name="{d5773345-4407-4a8a-ace6-0f0a9c8787c8}">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="-1"/>
+				<Prp name="value" type="B" value="0"/>
 			</Node>
 			<Node name="{d80391d4-892f-4cec-865e-b7facb3fac84}">
 				<Prp name="type" type="I" value="2"/>

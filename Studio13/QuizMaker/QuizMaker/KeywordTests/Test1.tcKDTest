@@ -30,10 +30,11 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks&#32;at&#32;point&#32;(%p1,&#32;%p2)&#32;of&#32;the&#32;&apos;%n&apos;&#32;object." Action="Click">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="413" />
-						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="30" />
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="413" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="30" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 					</Parameters>
 					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Quizmaker.exMainForm.CustomRibbon.RibbonTab1;" />
 				</Data>
