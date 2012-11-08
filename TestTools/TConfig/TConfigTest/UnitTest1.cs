@@ -17,7 +17,11 @@ namespace TConfigTest
 
             TConfig.TConfig config = new TConfig.TConfig(path);
 
+            bool f = config.SendMail();
+
             string sBuild = config.InstalledBuildNumber();
+
+            sBuild += ":";
         }
     }
 }

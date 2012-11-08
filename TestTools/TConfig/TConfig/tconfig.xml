@@ -5,6 +5,11 @@
       <InstallScriptLocation>C:\git\desktoptest\Studio13\install</InstallScriptLocation>
       <ResultsOutputPath>c:\TestResults</ResultsOutputPath>
 	  <TestDataDir>C:\git\desktoptest\Studio13\test_files</TestDataDir>
+	  <WebRoot>http://skytap.articulatetest.com/</WebRoot>
+	  <MailResults>
+		<Send>True</Send>
+		<SendTo>jshobe@articulate.com</SendTo>
+	  </MailResults>
     </TestEnvironment>
     <TestData>
       <ActivationKey>test</ActivationKey>

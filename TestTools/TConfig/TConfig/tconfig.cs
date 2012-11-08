@@ -10,16 +10,20 @@ namespace TConfig
     public class TConfig
     {
         private XmlDocument m_doc = null;
+        private int m_iIteration = 0;
 
         //xpath definitions
         private string m_xInstalledBuildNumber = "Studio13/TestEnvironment/InstallScriptLocation";
         private string m_xResultsOutputPath = "Studio13/TestEnvironment/ResultsOutputPath";
         private string m_xActivationKey = "Studio13/TestData/ActivationKey";
         private string m_xTestDataDir = "Studio13/TestEnvironment/TestDataDir";
+        private string m_xSendMail = "Studio13/TestEnvironment/MailResults/Send";
+        private string m_xSendMailTo = "Studio13/TestEnvironment/MailResults/SendTo";
+        private string m_xWebRoot = "Studio13/TestEnvironment/WebRoot";
 
         public TConfig(string path)
         {
-            m_doc = new XmlDocument();
+            m_doc = new XmlDocument();        
 
             try
             {
@@ -89,6 +93,9 @@ namespace TConfig
                         temp += "_" + i;
                     }
 
+                    //save off i as iteration number to be used in determine web url
+                    m_iIteration = i;
+
                     sResultsOutputPath = temp;
                     Directory.CreateDirectory(sResultsOutputPath);
                 }
@@ -99,6 +106,37 @@ namespace TConfig
             {
                 throw new Exception("Unable to set RestultsOutputPath: " + e.InnerException);
             }
+        }
+
+        public string ResultsWebUrl(string projectName)
+        {
+            try
+            {
+                //read results path root dir from xml
+                XmlNode root = m_doc.DocumentElement;
+                string sResultsWebUrl = root.SelectSingleNode(m_xWebRoot).InnerText;
+
+                //append path with build number 
+                sResultsWebUrl += InstalledBuildNumber();
+
+                //append path with projectname
+                sResultsWebUrl += "/" + projectName;
+
+                //append with iteration number if needed
+                //BUGBUG: requires ResultsOutputPath to be determined first and to use same instance of object for web url
+                //TODO: this is super hacky, do something smarter here
+                if (0 != m_iIteration)
+                    sResultsWebUrl += "_" + m_iIteration;
+
+                sResultsWebUrl += "/LogFiles/index.htm";
+
+                return sResultsWebUrl;
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Unable to set ResultsWebUrl: " + e.InnerException);
+            }
+
         }
 
         public string ActivationKey()
@@ -124,6 +162,37 @@ namespace TConfig
             catch (Exception e)
             {
                 throw new Exception("Unable to determine TestDataDir: " + e.InnerException);
+            }
+        }
+
+        public bool SendMail()
+        {
+            try
+            {
+                XmlNode root = m_doc.DocumentElement;
+                string sSendMail = root.SelectSingleNode(m_xSendMail).InnerText;
+
+                if ("True" == sSendMail)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error in SendMail: " + e.InnerException);
+            }
+        }
+
+        public string SendMailTo()
+        {
+            try
+            {
+                XmlNode root = m_doc.DocumentElement;
+                return root.SelectSingleNode(m_xSendMailTo).InnerText;
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error in SendMailTo: " + e.InnerException);
             }
         }
     }

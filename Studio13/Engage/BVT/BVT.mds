@@ -73,6 +73,16 @@
 				<Prp name="type" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
 				<Prp name="typename" type="S" value="Keyword Testing"/>
 			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="Events\Events.tcAX"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{6529F5E4-0358-41B3-BBEB-DC1E34445886}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}"/>
+				<Prp name="typename" type="S" value="Events"/>
+			</Node>
 		</Node>
 		<Node name="config">
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
@@ -81,6 +91,7 @@
 			<Node name="..\..\common\environment.sj"/>
 			<Node name="..\..\common\visualizer\environment_sj\environment.sj.tcvis"/>
 			<Node name="bvt.mds"/>
+			<Node name="events\events.tcax"/>
 			<Node name="keywordtests\copyresultsfile.tckdtest"/>
 			<Node name="keywordtests\inittestenvironment.tckdtest"/>
 			<Node name="keywordtests\insertaccordion.tckdtest"/>
@@ -88,6 +99,7 @@
 			<Node name="keywordtests\launchengage.tckdtest"/>
 			<Node name="keywordtests\preview.tckdtest"/>
 			<Node name="keywordtests\publish.tckdtest"/>
+			<Node name="keywordtests\saveresults.tckdtest"/>
 			<Node name="keywordtests\shutdownandsave.tckdtest"/>
 			<Node name="keywordtests\visualizer\copyresultsfile_tckdtest\copyresultsfile.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\inittestenvironment_tckdtest\inittestenvironment.tckdtest.tcvis"/>
@@ -95,11 +107,14 @@
 			<Node name="keywordtests\visualizer\launchengage_tckdtest\launchengage.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\preview_tckdtest\preview.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\saveresults_tckdtest\saveresults.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\shutdownandsave_tckdtest\shutdownandsave.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="script\engagefunctions.sj"/>
+			<Node name="script\eventhandlers.sj"/>
 			<Node name="script\script.tcscript"/>
 			<Node name="script\visualizer\engagefunctions_sj\engagefunctions.sj.tcvis"/>
+			<Node name="script\visualizer\eventhandlers_sj\eventhandlers.sj.tcvis"/>
 			<Node name="stores\stores.tcstores"/>
 			<Node name="testedapps\testedapps.tctas"/>
 		</Node>
@@ -111,6 +126,10 @@
 						<Node name="ref0000000000">
 							<Prp name="index" type="I" value="0"/>
 							<Prp name="key" type="S" value="{697C49D5-E933-4B5B-8ADF-3CE067A66792}"/>
+						</Node>
+						<Node name="ref0000000001">
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{6529F5E4-0358-41B3-BBEB-DC1E34445886}"/>
 						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="Advanced"/>
@@ -783,6 +802,21 @@
 							<Prp name="test moniker" type="S" value="KDT\{2A8E3AAC-577E-415F-9337-E1475FCEEC61}"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
+						<Node name="item0000000006">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="6"/>
+							<Prp name="key" type="S" value="{7EF5F43C-3A7B-4AE4-BC23-CE7D929207FF}"/>
+							<Prp name="name" type="S" value="SaveResults"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="KDT\{B9BF9FD7-D2EE-41CC-AA05-1DF1A8D10EC7}"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
@@ -810,6 +844,56 @@
 					<Prp name="descr" type="H" value=" "/>
 					<Prp name="local" type="B" value="-1"/>
 					<Prp name="name" type="S" value="OutputPath"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var1">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value="7400720075006500"/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="Pass"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var2">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="-1"/>
+					<Prp name="name" type="S" value="ProjectName"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var3">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value="7400720075006500"/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="SendMail"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var4">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="SendMailTo"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+				<Node name="var5">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="-1"/>
+					<Prp name="name" type="S" value="ResultsUrl"/>
 					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
 				</Node>
 			</Node>
