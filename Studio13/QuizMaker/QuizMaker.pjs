@@ -84,6 +84,16 @@
 					<Prp name="name" type="S" value="TestDataDir"/>
 					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
 				</Node>
+				<Node name="var2">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="0"/>
+					<Prp name="name" type="S" value="InstalledBuildNumber"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
 			</Node>
 			<Prp name="key" type="S" value="{37CF7B6C-5059-4A8E-81A9-65B5C8E9ADC0}"/>
 			<Prp name="version" type="I" value="3"/>
