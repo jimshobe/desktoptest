@@ -45,7 +45,7 @@
 					<Prp name="relpath" type="S" value="EventHandlers.sj"/>
 				</Node>
 				<Prp name="index" type="I" value="2"/>
-				<Prp name="key" type="S" value="{525CF52B-2698-4A6D-A2CC-1B1557F9ED16}"/>
+				<Prp name="key" type="S" value="{06613D66-64D3-4D03-8298-86151125DBA9}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
