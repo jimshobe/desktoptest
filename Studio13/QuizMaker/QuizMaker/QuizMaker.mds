@@ -86,12 +86,14 @@
 			<Node name="keywordtests\keywordtests.tckdt"/>
 			<Node name="keywordtests\preview.tckdtest"/>
 			<Node name="keywordtests\publish.tckdtest"/>
+			<Node name="keywordtests\publishtoverify.tckdtest"/>
 			<Node name="keywordtests\test1.tckdtest"/>
 			<Node name="keywordtests\visualizer\allquestions_tckdtest\allquestions.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\bvt_tckdtest\bvt.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\copyresultsfile_tckdtest\copyresultsfile.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\preview_tckdtest\preview.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\publishtoverify_tckdtest\publishtoverify.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi17160.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi17160.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi171601.png"/>
@@ -306,16 +308,36 @@
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi34685.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi35320.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi35320.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi36480.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi36480.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi36481.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi36481.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi37680.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi37680.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi37682.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi37682.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi37684.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi37684.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi38040.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi38040.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi38320.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi38320.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi38321.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi38321.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40200.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40200.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40201.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40201.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40202.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40202.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40203.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40203.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40204.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40204.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40205.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40205.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40206.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi40206.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi45480.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi45480.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi454801.png"/>
@@ -366,6 +388,24 @@
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi47764.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi47765.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi47765.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48240.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48240.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi482401.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi482401.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48241.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48241.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48242.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48242.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48243.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48243.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48244.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48244.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48245.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48245.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48246.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48246.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48247.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48247.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi50320.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi50320.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
@@ -373,7 +413,16 @@
 			<Node name="quizmaker.mds"/>
 			<Node name="script\quizmakerfunctions.sj"/>
 			<Node name="script\script.tcscript"/>
+			<Node name="script\verifyallquestions.sj"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\quizmakerfunctions.sj.tcvis"/>
+			<Node name="script\visualizer\verifyallquestions_sj\verifyallquestions.sj.tcvis"/>
+			<Node name="stores\regions.tcregions"/>
+			<Node name="stores\regions\blankslidebutton.png"/>
+			<Node name="stores\regions\continuebutton.png"/>
+			<Node name="stores\regions\correctdummyfeedback.png"/>
+			<Node name="stores\regions\dummyanswer1.png"/>
+			<Node name="stores\regions\dummyslideweboutput.png"/>
+			<Node name="stores\regions\submitbutton.png"/>
 			<Node name="stores\stores.tcstores"/>
 			<Node name="testedapps\testedapps.tctas"/>
 		</Node>
@@ -678,7 +727,7 @@
 			</Node>
 			<Node name="{d5773345-4407-4a8a-ace6-0f0a9c8787c8}">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="0"/>
+				<Prp name="value" type="B" value="-1"/>
 			</Node>
 			<Node name="{d80391d4-892f-4cec-865e-b7facb3fac84}">
 				<Prp name="type" type="I" value="2"/>
@@ -709,7 +758,7 @@
 				<Prp name="colcount" type="I" value="1"/>
 				<Prp name="colindex" type="I" value="0"/>
 				<Prp name="rowcount" type="I" value="9"/>
-				<Prp name="rowindex" type="I" value="8"/>
+				<Prp name="rowindex" type="I" value="0"/>
 				<Prp name="type" type="I" value="6"/>
 				<Prp name="val0x0" type="S" value="NativeVBObject"/>
 				<Prp name="val0x1" type="S" value="NativeDelphiObject"/>

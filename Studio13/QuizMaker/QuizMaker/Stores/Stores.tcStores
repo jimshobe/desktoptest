@@ -19,7 +19,18 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Node name="child list"/>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Regions.tcRegions"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{F82F5331-98A6-470C-B3CA-ECBD2AA405D0}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}"/>
+				<Prp name="typename" type="S" value="Regions"/>
+			</Node>
+		</Node>
 		<Node name="folders">
 			<Node name="folders"/>
 		</Node>

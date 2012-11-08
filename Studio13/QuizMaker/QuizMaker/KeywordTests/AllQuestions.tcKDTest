@@ -106,16 +106,21 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs&#32;a&#32;keyword&#32;test." TestName="Publish">
-					<CommonData Disabled="True" />
-				</Data>
+				<Data Description="Runs&#32;a&#32;keyword&#32;test." TestName="Publish" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs&#32;a&#32;keyword&#32;test." TestName="PublishToVerify" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="QMSaveAndExit" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 						<Parameter Name="filename" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="QmBvt.quiz" />
 					</Parameters>
 				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyDummySlide" Unit="VerifyAllQuestions" />
 			</Operation>
 		</Children>
 	</TestData>
