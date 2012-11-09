@@ -11,8 +11,10 @@ QuizMaker.pjs.tcLS
 Presenter.pjs.tcLS
 QuizMaker.tcCfgExtender
 Presenter.tcCfgExtender
+Engage.tcCfgExtender
 Studio13/QuizMaker/QuizMaker/KeywordTests/Visualizer/
 Studio13/Presenter/Presenter/KeywordTests/Visualizer/
+Studio13/Engage/Engage/KeywordTests/Visualizer/
 Studio13/install/Studio*/
 Studio13/QuizMaker/QuizMaker/QuizMaker.mds.tcLS
 Studio13/Presenter/Presenter/Presenter.mds.tcLS
