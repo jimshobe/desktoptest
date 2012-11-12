@@ -52,7 +52,7 @@
 			</Node>
 			<Node name="item0000000003">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Preview.tcKDTest"/>
+					<Prp name="relpath" type="S" value="Preview_Freeform.tcKDTest"/>
 				</Node>
 				<Prp name="index" type="I" value="3"/>
 				<Prp name="key" type="S" value="{C7E356ED-D980-4C1B-BB4F-5E8359FF8FDF}"/>

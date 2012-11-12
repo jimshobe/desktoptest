@@ -97,14 +97,14 @@
 			<Node name="keywordtests\bvt.tckdtest"/>
 			<Node name="keywordtests\copyresultsfile.tckdtest"/>
 			<Node name="keywordtests\keywordtests.tckdt"/>
-			<Node name="keywordtests\preview.tckdtest"/>
+			<Node name="keywordtests\preview_freeform.tckdtest"/>
 			<Node name="keywordtests\publish.tckdtest"/>
 			<Node name="keywordtests\publishtoverify.tckdtest"/>
 			<Node name="keywordtests\test1.tckdtest"/>
 			<Node name="keywordtests\visualizer\allquestions_tckdtest\allquestions.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\bvt_tckdtest\bvt.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\copyresultsfile_tckdtest\copyresultsfile.tckdtest.tcvis"/>
-			<Node name="keywordtests\visualizer\preview_tckdtest\preview.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\preview_freeform_tckdtest\preview_freeform.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publishtoverify_tckdtest\publishtoverify.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi17160.png"/>
@@ -421,6 +421,10 @@
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi48247.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi50320.png"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi50320.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi57400.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi57400.xml"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi57401.png"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\tcvi57401.xml"/>
 			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="quizmaker.mds"/>
@@ -435,7 +439,10 @@
 			<Node name="stores\regions\defaultcorrectfeedback.png"/>
 			<Node name="stores\regions\dummyanswer1.png"/>
 			<Node name="stores\regions\dummyslideweboutput.png"/>
+			<Node name="stores\regions\shuffleanswers.png"/>
 			<Node name="stores\regions\submitbutton.png"/>
+			<Node name="stores\regions\tfslideweboutput.png"/>
+			<Node name="stores\regions\true.png"/>
 			<Node name="stores\stores.tcstores"/>
 			<Node name="testedapps\testedapps.tctas"/>
 		</Node>
