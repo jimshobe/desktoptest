@@ -9,6 +9,7 @@
 	  <MailResults>
 		<Send>True</Send>
 		<SendTo>jshobe@articulate.com</SendTo>
+		<SendFrom>autotest@articulate.com</SendFrom>
 	  </MailResults>
     </TestEnvironment>
     <TestData>
