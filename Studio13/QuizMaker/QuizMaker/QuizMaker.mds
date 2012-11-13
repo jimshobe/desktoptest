@@ -107,7 +107,6 @@
 			<Node name="keywordtests\visualizer\preview_freeform_tckdtest\preview_freeform.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publishtoverify_tckdtest\publishtoverify.tckdtest.tcvis"/>
-			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="quizmaker.mds"/>
 			<Node name="script\quizmakerfunctions.sj"/>
@@ -117,14 +116,26 @@
 			<Node name="script\visualizer\verifyallquestions_sj\verifyallquestions.sj.tcvis"/>
 			<Node name="stores\regions.tcregions"/>
 			<Node name="stores\regions\blankslidebutton.png"/>
+			<Node name="stores\regions\choicea.png"/>
+			<Node name="stores\regions\choiceadrag.png"/>
+			<Node name="stores\regions\choiced.png"/>
 			<Node name="stores\regions\continuebutton.png"/>
 			<Node name="stores\regions\defaultcorrectfeedback.png"/>
 			<Node name="stores\regions\dummyanswer1.png"/>
 			<Node name="stores\regions\dummyslideweboutput.png"/>
+			<Node name="stores\regions\fillintheblankslideweboutput.png"/>
+			<Node name="stores\regions\macromediaflashplayeractivex1.png"/>
+			<Node name="stores\regions\multiplechoiceslideweboutput.png"/>
+			<Node name="stores\regions\multipleresponseslideweboutput.png"/>
 			<Node name="stores\regions\shuffleanswers.png"/>
+			<Node name="stores\regions\shuffleanswerssurvey.png"/>
+			<Node name="stores\regions\slideview.png"/>
 			<Node name="stores\regions\submitbutton.png"/>
 			<Node name="stores\regions\tfslideweboutput.png"/>
 			<Node name="stores\regions\true.png"/>
+			<Node name="stores\regions\typeyourtexthere.png"/>
+			<Node name="stores\regions\wordbankdrop.png"/>
+			<Node name="stores\regions\wordbankslideweboutput.png"/>
 			<Node name="stores\stores.tcstores"/>
 			<Node name="testedapps\testedapps.tctas"/>
 		</Node>
