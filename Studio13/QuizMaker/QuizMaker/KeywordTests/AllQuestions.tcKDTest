@@ -95,26 +95,26 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertFreeformHotspot" Unit="QuizMakerFunctions" />
 			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="Preview" Unit="QuizMakerFunctions">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs&#32;a&#32;keyword&#32;test." TestName="Preview">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs&#32;a&#32;keyword&#32;test." TestName="Publish">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs&#32;a&#32;keyword&#32;test." TestName="PublishToVerify" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyDummySlide" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyTF" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyMultipleChoice" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyMultipleResponse" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyFillInTheBlank" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyWordBank" Unit="VerifyAllQuestions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="QMSaveAndExit" Unit="QuizMakerFunctions">
