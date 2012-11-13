@@ -107,6 +107,7 @@
 			<Node name="keywordtests\visualizer\preview_freeform_tckdtest\preview_freeform.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
 			<Node name="keywordtests\visualizer\publishtoverify_tckdtest\publishtoverify.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
 			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="quizmaker.mds"/>
 			<Node name="script\quizmakerfunctions.sj"/>
@@ -165,6 +166,10 @@
 		</Node>
 		<Node name="scc"/>
 		<Node name="settings">
+			<Node name="{0787aa13-4c49-418a-a688-b23be9f226f4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
 			<Node name="{0bd6ae2e-e5d9-4ad0-9bf3-2483d329b22a}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
@@ -228,6 +233,20 @@
 			<Node name="{2fcb2eb2-336e-4fd4-96a3-8710a73addd8}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{323facda-38e8-4c1b-b22c-99e0ab90eadc}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{33c0a94e-7f58-493c-bccc-91685352f9b4}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="*"/>
 			</Node>
 			<Node name="{3ae91bbd-f37d-40e6-b49d-d2f1ef68e285}">
 				<Prp name="type" type="I" value="1"/>
@@ -350,6 +369,10 @@
 				<Prp name="val0x0" type="S" value="Tree"/>
 				<Prp name="val0x1" type="S" value="Flat"/>
 			</Node>
+			<Node name="{74cc9f3b-2e52-4b16-844a-9ee33532b51e}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
 			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
@@ -388,6 +411,17 @@
 				<Prp name="rowindex" type="I" value="-1"/>
 				<Prp name="type" type="I" value="6"/>
 			</Node>
+			<Node name="{95e3327a-7433-4a00-9257-6e9a4b4f1795}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="ID"/>
+				<Prp name="val0x1" type="S" value="Name"/>
+			</Node>
 			<Node name="{98c6a210-59ef-4cd6-aa7e-b41953dec74a}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
@@ -404,7 +438,24 @@
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
 			</Node>
+			<Node name="{abe9c069-5d2d-4fba-b1b0-ff96c0f0b1f6}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="DOM"/>
+				<Prp name="val0x1" type="S" value="Tag"/>
+				<Prp name="val0x2" type="S" value="Hybrid"/>
+				<Prp name="val0x3" type="S" value="Tree"/>
+			</Node>
 			<Node name="{ae3f26d8-a5bd-4172-9f50-f2b9d1d03611}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{bc2725ab-c90d-4761-beb2-abace30fe554}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
 			</Node>
@@ -454,6 +505,10 @@
 				<Prp name="type" type="I" value="2"/>
 				<Prp name="value" type="I" value="0"/>
 			</Node>
+			<Node name="{e47a2931-ee5d-42d2-8cb7-3796de597aa1}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
 			<Node name="{e5242a20-9b70-4540-aefd-7012791d3284}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
@@ -498,6 +553,10 @@
 			<Node name="{fe195f25-7dc0-457f-9336-71ed39243753}">
 				<Prp name="type" type="I" value="5"/>
 				<Prp name="value" type="S" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_"/>
+			</Node>
+			<Node name="agopenapp_extendedsilverlightobjecttree">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
 			</Node>
 			<Node name="applicationhangingprocessfiltermode">
 				<Prp name="col0enabled" type="B" value="-1"/>
@@ -652,6 +711,17 @@
 			<Node name="recreateactivexobjects">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="textrecognizer_acceptedwindows">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
 			</Node>
 			<Prp name="key" type="S" value="{64856A57-CC9D-4BA8-A220-FB2506BCF4EA}"/>
 			<Prp name="settingsversion" type="S" value="9.0"/>
