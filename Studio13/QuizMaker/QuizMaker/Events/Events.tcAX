@@ -168,14 +168,14 @@
 					</Node>
 					<Node name="handler0info">
 						<Prp name="handler_eventname" type="S" value="OnLogError"/>
-						<Prp name="handler_moniker" type="S" value="{A4CF6F0A-89A3-421E-B189-1C338A55ED67}GeneralEvents_OnLogError"/>
+						<Prp name="handler_moniker" type="S" value="{4D168F24-C327-4A5E-8344-9A1D42F65232}GeneralEvents_OnLogError"/>
 						<Prp name="handler_name" type="S" value="GeneralEvents_OnLogError"/>
 						<Prp name="handler_realdispid" type="I" value="1610743811"/>
 						<Prp name="handler_realiid" type="S" value="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}"/>
 					</Node>
 					<Node name="handler1info">
 						<Prp name="handler_eventname" type="S" value="OnStopTest"/>
-						<Prp name="handler_moniker" type="S" value="{A4CF6F0A-89A3-421E-B189-1C338A55ED67}GeneralEvents_OnStopTest"/>
+						<Prp name="handler_moniker" type="S" value="{4D168F24-C327-4A5E-8344-9A1D42F65232}GeneralEvents_OnStopTest"/>
 						<Prp name="handler_name" type="S" value="GeneralEvents_OnStopTest"/>
 						<Prp name="handler_realdispid" type="I" value="1610743809"/>
 						<Prp name="handler_realiid" type="S" value="{F5856842-4323-49FD-B806-36E22179EF8A}"/>

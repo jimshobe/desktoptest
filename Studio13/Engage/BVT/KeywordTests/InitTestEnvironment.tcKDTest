@@ -11,6 +11,7 @@
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InitTestEnvironment" Unit="Environment">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 						<Parameter Name="testproject" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="EngageBvt" />
+						<Parameter Name="IsBvt" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
 			</Operation>

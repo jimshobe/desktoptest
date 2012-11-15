@@ -52,10 +52,10 @@
 			</Node>
 			<Node name="item0000000003">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="..\..\..\Engage\BVT\Script\EventHandlers.sj"/>
+					<Prp name="relpath" type="S" value="EventHandlers.sj"/>
 				</Node>
 				<Prp name="index" type="I" value="3"/>
-				<Prp name="key" type="S" value="{A4CF6F0A-89A3-421E-B189-1C338A55ED67}"/>
+				<Prp name="key" type="S" value="{4D168F24-C327-4A5E-8344-9A1D42F65232}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
