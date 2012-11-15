@@ -90,86 +90,51 @@
 		<Node name="files">
 			<Node name="..\..\common\environment.sj"/>
 			<Node name="..\..\common\visualizer\environment_sj\environment.sj.tcvis"/>
+			<Node name="..\..\engage\bvt\script\eventhandlers.sj"/>
+			<Node name="..\..\engage\bvt\script\visualizer\eventhandlers_sj\eventhandlers.sj.tcvis"/>
 			<Node name="events\events.tcax"/>
 			<Node name="keywordtests\allquestions.tckdtest"/>
 			<Node name="keywordtests\bvt.tckdtest"/>
 			<Node name="keywordtests\copyresultsfile.tckdtest"/>
-			<Node name="keywordtests\inittestenvironment.tckdtest"/>
 			<Node name="keywordtests\keywordtests.tckdt"/>
 			<Node name="keywordtests\preview_freeform.tckdtest"/>
 			<Node name="keywordtests\publish.tckdtest"/>
 			<Node name="keywordtests\publishtoverify.tckdtest"/>
-			<Node name="keywordtests\sampletest1.tckdtest"/>
-			<Node name="keywordtests\sampletest2.tckdtest"/>
-			<Node name="keywordtests\saveresults.tckdtest"/>
+			<Node name="keywordtests\test1.tckdtest"/>
+			<Node name="keywordtests\visualizer\allquestions_tckdtest\allquestions.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\bvt_tckdtest\bvt.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\copyresultsfile_tckdtest\copyresultsfile.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\preview_freeform_tckdtest\preview_freeform.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\publish_tckdtest\publish.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\publishtoverify_tckdtest\publishtoverify.tckdtest.tcvis"/>
+			<Node name="keywordtests\visualizer\test1_tckdtest\test1.tckdtest.tcvis"/>
+			<Node name="namemapping\namemapping.tcnm"/>
 			<Node name="quizmaker.mds"/>
-			<Node name="script\eventhandlers.sj"/>
 			<Node name="script\quizmakerfunctions.sj"/>
 			<Node name="script\script.tcscript"/>
 			<Node name="script\verifyallquestions.sj"/>
-			<Node name="script\visualizer\eventhandlers_sj\eventhandlers.sj.tcvis"/>
 			<Node name="script\visualizer\quizmakerfunctions_sj\quizmakerfunctions.sj.tcvis"/>
 			<Node name="script\visualizer\verifyallquestions_sj\verifyallquestions.sj.tcvis"/>
 			<Node name="stores\regions.tcregions"/>
-			<Node name="stores\regions\allquestionsresultslideweboutput.png"/>
 			<Node name="stores\regions\blankslidebutton.png"/>
 			<Node name="stores\regions\choicea.png"/>
 			<Node name="stores\regions\choiceadrag.png"/>
-			<Node name="stores\regions\choiceamdrag.png"/>
-			<Node name="stores\regions\choicebmdrag.png"/>
-			<Node name="stores\regions\choicecmdrag.png"/>
 			<Node name="stores\regions\choiced.png"/>
 			<Node name="stores\regions\continuebutton.png"/>
 			<Node name="stores\regions\defaultcorrectfeedback.png"/>
-			<Node name="stores\regions\dragdroprectangle.png"/>
-			<Node name="stores\regions\dragdroproundedrectangle.png"/>
-			<Node name="stores\regions\dragdroptrapezoid.png"/>
-			<Node name="stores\regions\dragdroptriangle.png"/>
 			<Node name="stores\regions\dummyanswer1.png"/>
 			<Node name="stores\regions\dummyslideweboutput.png"/>
-			<Node name="stores\regions\essayslideweboutput.png"/>
 			<Node name="stores\regions\fillintheblankslideweboutput.png"/>
-			<Node name="stores\regions\freeformdragdropslideweboutput.png"/>
-			<Node name="stores\regions\freeformhotspotslideweboutput.png"/>
-			<Node name="stores\regions\freeformpickmanyslideweboutput.png"/>
-			<Node name="stores\regions\freeformpickoneslideweboutput.png"/>
-			<Node name="stores\regions\gradedhotspotslideweboutput.png"/>
-			<Node name="stores\regions\howmanyslideweboutput.png"/>
-			<Node name="stores\regions\likertscaleslideweboutput.png"/>
-			<Node name="stores\regions\likertstatement1.png"/>
-			<Node name="stores\regions\likertstatement2.png"/>
-			<Node name="stores\regions\likertstatement3.png"/>
-			<Node name="stores\regions\likertstatement4.png"/>
-			<Node name="stores\regions\matchamdrag.png"/>
-			<Node name="stores\regions\matchbmdrag.png"/>
-			<Node name="stores\regions\matchcmdrag.png"/>
-			<Node name="stores\regions\matchingdragdropslideweboutput.png"/>
+			<Node name="stores\regions\macromediaflashplayeractivex1.png"/>
 			<Node name="stores\regions\multiplechoiceslideweboutput.png"/>
 			<Node name="stores\regions\multipleresponseslideweboutput.png"/>
-			<Node name="stores\regions\numericentrybox.png"/>
-			<Node name="stores\regions\numericslideweboutput.png"/>
-			<Node name="stores\regions\pickmanyrectangle.png"/>
-			<Node name="stores\regions\pickmanyslideweboutput.png"/>
-			<Node name="stores\regions\pickmanysmile.png"/>
-			<Node name="stores\regions\pickonerectangle.png"/>
-			<Node name="stores\regions\pickoneslideweboutput.png"/>
-			<Node name="stores\regions\redtulip.png"/>
-			<Node name="stores\regions\redtulipbig.png"/>
-			<Node name="stores\regions\shortanswerslideweboutput.png"/>
 			<Node name="stores\regions\shuffleanswers.png"/>
 			<Node name="stores\regions\shuffleanswerssurvey.png"/>
 			<Node name="stores\regions\slideview.png"/>
-			<Node name="stores\regions\statement1.png"/>
-			<Node name="stores\regions\statement1drag.png"/>
-			<Node name="stores\regions\statement2.png"/>
 			<Node name="stores\regions\submitbutton.png"/>
-			<Node name="stores\regions\textentryslideweboutput.png"/>
 			<Node name="stores\regions\tfslideweboutput.png"/>
 			<Node name="stores\regions\true.png"/>
 			<Node name="stores\regions\typeyourtexthere.png"/>
-			<Node name="stores\regions\typeyourtexthereessay.png"/>
-			<Node name="stores\regions\typeyourtextheretextentry.png"/>
-			<Node name="stores\regions\whichwordslideweboutput.png"/>
 			<Node name="stores\regions\wordbankdrop.png"/>
 			<Node name="stores\regions\wordbankslideweboutput.png"/>
 			<Node name="stores\stores.tcstores"/>
@@ -467,7 +432,7 @@
 			</Node>
 			<Node name="{a2568cc8-7e8e-42c5-a87d-b69684a1e616}">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="0"/>
+				<Prp name="value" type="B" value="-1"/>
 			</Node>
 			<Node name="{a4d0b1b0-14da-4afa-8afc-e82d0400e7e9}">
 				<Prp name="type" type="I" value="1"/>
@@ -764,173 +729,21 @@
 		<Node name="test data">
 			<Node name="child list">
 				<Node name="item0000000000">
-					<Node name="child list">
-						<Node name="item0000000000">
-							<Node name="child list"/>
-							<Node name="test parameters">
-								<Node name="param0">
-									<Prp name="index" type="I" value="0"/>
-									<Prp name="localvarname" type="S" value=""/>
-									<Prp name="name" type="S" value="IsBvt"/>
-									<Prp name="type" type="I" value="2"/>
-									<Prp name="value" type="B" value="-1"/>
-								</Node>
-								<Node name="param1">
-									<Prp name="index" type="I" value="1"/>
-									<Prp name="localvarname" type="S" value=""/>
-									<Prp name="name" type="S" value="testproject"/>
-									<Prp name="type" type="I" value="1"/>
-									<Prp name="value" type="S" value="QmBvt"/>
-								</Node>
-							</Node>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="0"/>
-							<Prp name="key" type="S" value="{86DCFB14-EA69-4C0F-9BB0-CC7028B1E5D5}"/>
-							<Prp name="name" type="S" value="InitTestEnvironment"/>
-							<Prp name="stoponerror" type="I" value="1"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{1C66BD1C-B0F8-4E81-958A-688595A9F574}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item0000000001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="1"/>
-							<Prp name="key" type="S" value="{959975DD-B4E9-4331-A6A3-176A724E5307}"/>
-							<Prp name="name" type="S" value="BVT"/>
-							<Prp name="stoponerror" type="I" value="1"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{9FBAD3FF-6017-462A-9A3A-FE771CD8B307}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item0000000002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="2"/>
-							<Prp name="key" type="S" value="{04032DE7-809A-4BCB-A32A-6CB365640D3B}"/>
-							<Prp name="name" type="S" value="PublishResults"/>
-							<Prp name="stoponerror" type="I" value="1"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{0323F0DB-8E71-439A-BB6A-F4F52F5323F1}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-					</Node>
+					<Node name="child list"/>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
 					<Prp name="enabled" type="B" value="-1"/>
-					<Prp name="group" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
 					<Prp name="index" type="I" value="0"/>
-					<Prp name="key" type="S" value="{D25826FB-B85B-49A7-ABD7-B6CBE603FADA}"/>
-					<Prp name="name" type="S" value="BVT"/>
+					<Prp name="key" type="S" value="{BA49B578-458F-4A8A-993A-DABC01C36A68}"/>
+					<Prp name="name" type="S" value="ProjectTestItem1"/>
 					<Prp name="stoponerror" type="I" value="2"/>
 					<Prp name="stoponexception" type="I" value="2"/>
-					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="test moniker" type="S" value="KDT\{9FBAD3FF-6017-462A-9A3A-FE771CD8B307}"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
 				<Node name="item0000000001">
-					<Node name="child list">
-						<Node name="item0000000000">
-							<Node name="child list"/>
-							<Node name="test parameters">
-								<Node name="param0">
-									<Prp name="index" type="I" value="0"/>
-									<Prp name="localvarname" type="S" value=""/>
-									<Prp name="name" type="S" value="IsBvt"/>
-									<Prp name="type" type="I" value="2"/>
-									<Prp name="value" type="B" value="0"/>
-								</Node>
-								<Node name="param1">
-									<Prp name="index" type="I" value="1"/>
-									<Prp name="localvarname" type="S" value=""/>
-									<Prp name="name" type="S" value="testproject"/>
-									<Prp name="type" type="I" value="1"/>
-									<Prp name="value" type="S" value="SampleTest"/>
-								</Node>
-							</Node>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="0"/>
-							<Prp name="key" type="S" value="{79F0742F-A41C-47BB-89DF-08CE004A8538}"/>
-							<Prp name="name" type="S" value="InitTestEnvironment"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{1C66BD1C-B0F8-4E81-958A-688595A9F574}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item0000000001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="1"/>
-							<Prp name="key" type="S" value="{000507B5-DAD8-436A-A470-9A46574438F8}"/>
-							<Prp name="name" type="S" value="SampleTest1"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{5C9672B6-9552-4463-9E37-B2C696F8D7B6}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item0000000002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="2"/>
-							<Prp name="key" type="S" value="{A23DDACF-3165-47AA-88EF-8EEB8894B8D1}"/>
-							<Prp name="name" type="S" value="SampleTest2"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{67B6E616-FFF7-4437-B3E2-A8FDB519FD24}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item0000000003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="index" type="I" value="3"/>
-							<Prp name="key" type="S" value="{3506B8D5-94D7-4E86-A129-5CDD2EE8F7E0}"/>
-							<Prp name="name" type="S" value="PublishResults"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="KDT\{0323F0DB-8E71-439A-BB6A-F4F52F5323F1}"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-					</Node>
-					<Node name="test parameters"/>
-					<Prp name="count" type="I" value="1"/>
-					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
-					<Prp name="group" type="B" value="-1"/>
-					<Prp name="index" type="I" value="1"/>
-					<Prp name="key" type="S" value="{BBE5D20E-5CD2-4D7D-B191-6150B2E44927}"/>
-					<Prp name="name" type="S" value="SampleTest"/>
-					<Prp name="stoponerror" type="I" value="2"/>
-					<Prp name="stoponexception" type="I" value="2"/>
-					<Prp name="test moniker" type="S" value=""/>
-					<Prp name="timeout" type="I" value="0"/>
-				</Node>
-				<Node name="item0000000002">
 					<Node name="child list">
 						<Node name="item0000000000">
 							<Node name="child list"/>
@@ -951,9 +764,9 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
-					<Prp name="index" type="I" value="2"/>
+					<Prp name="index" type="I" value="1"/>
 					<Prp name="key" type="S" value="{51E19095-9366-44B0-9354-075F6F1D977F}"/>
 					<Prp name="name" type="S" value="Smoke"/>
 					<Prp name="stoponerror" type="I" value="2"/>
@@ -1045,16 +858,6 @@
 					<Prp name="local" type="B" value="0"/>
 					<Prp name="name" type="S" value="tconfigpath"/>
 					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
-				</Node>
-				<Node name="var8">
-					<Node name="defvalue">
-						<Prp name="boolvalue" type="B" value="0"/>
-					</Node>
-					<Prp name="category" type="H" value=" "/>
-					<Prp name="descr" type="H" value=" "/>
-					<Prp name="local" type="B" value="0"/>
-					<Prp name="name" type="S" value="IsBvt"/>
-					<Prp name="type" type="S" value="{D25FDC80-E78F-4209-88B6-6FE2B0771206}"/>
 				</Node>
 			</Node>
 			<Prp name="key" type="S" value="{AB3B679F-2AD1-4B39-B7F5-92B2CF466296}"/>
