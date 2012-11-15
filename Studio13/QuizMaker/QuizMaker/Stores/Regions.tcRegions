@@ -367,15 +367,15 @@
 					<Node name="settings">
 						<Prp name="settingsversion" type="S" value="9.0"/>
 					</Node>
-					<Prp name="caption" type="S" value="MacromediaFlashPlayerActiveX1"/>
-					<Prp name="filename" type="S" value="Regions\MacromediaFlashPlayerActiveX1.png"/>
-					<Prp name="id" type="S" value="{0612B65A-5622-4A6E-A7A0-A700668A63D8}"/>
+					<Prp name="caption" type="S" value="ChoiceA"/>
+					<Prp name="filename" type="S" value="Regions\ChoiceA.png"/>
+					<Prp name="id" type="S" value="{71ADF1DC-DB44-447D-BCFA-F313A0DFE5AC}"/>
 					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
 					<Prp name="update" type="B" value="0"/>
 					<Prp name="version" type="S" value="9.0"/>
 				</Node>
 				<Prp name="index" type="I" value="19"/>
-				<Prp name="key" type="S" value="{0612B65A-5622-4A6E-A7A0-A700668A63D8}"/>
+				<Prp name="key" type="S" value="{71ADF1DC-DB44-447D-BCFA-F313A0DFE5AC}"/>
 				<Prp name="pluginname" type="S" value="Stores"/>
 				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
 				<Prp name="typename" type="S" value="Region"/>
@@ -385,15 +385,735 @@
 					<Node name="settings">
 						<Prp name="settingsversion" type="S" value="9.0"/>
 					</Node>
-					<Prp name="caption" type="S" value="ChoiceA"/>
-					<Prp name="filename" type="S" value="Regions\ChoiceA.png"/>
-					<Prp name="id" type="S" value="{71ADF1DC-DB44-447D-BCFA-F313A0DFE5AC}"/>
+					<Prp name="caption" type="S" value="MatchingDragDropSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\MatchingDragDropSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{D5DF62E6-2C97-4A10-8CFE-1F73F2E079C8}"/>
 					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
 					<Prp name="update" type="B" value="0"/>
 					<Prp name="version" type="S" value="9.0"/>
 				</Node>
 				<Prp name="index" type="I" value="20"/>
-				<Prp name="key" type="S" value="{71ADF1DC-DB44-447D-BCFA-F313A0DFE5AC}"/>
+				<Prp name="key" type="S" value="{D5DF62E6-2C97-4A10-8CFE-1F73F2E079C8}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000021">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="ChoiceAMDrag"/>
+					<Prp name="filename" type="S" value="Regions\ChoiceAMDrag.png"/>
+					<Prp name="id" type="S" value="{1BFD1CAF-B517-40CD-9482-5084E132A0DF}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="21"/>
+				<Prp name="key" type="S" value="{1BFD1CAF-B517-40CD-9482-5084E132A0DF}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000022">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="ChoiceBMDrag"/>
+					<Prp name="filename" type="S" value="Regions\ChoiceBMDrag.png"/>
+					<Prp name="id" type="S" value="{153BC5D6-A339-4E74-BA16-4A7E9FF56FA2}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="22"/>
+				<Prp name="key" type="S" value="{153BC5D6-A339-4E74-BA16-4A7E9FF56FA2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000023">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="ChoiceCMDrag"/>
+					<Prp name="filename" type="S" value="Regions\ChoiceCMDrag.png"/>
+					<Prp name="id" type="S" value="{3459DCDB-766D-4619-9F94-B63DF775750C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="23"/>
+				<Prp name="key" type="S" value="{3459DCDB-766D-4619-9F94-B63DF775750C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000024">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="MatchAMDrag"/>
+					<Prp name="filename" type="S" value="Regions\MatchAMDrag.png"/>
+					<Prp name="id" type="S" value="{585663A8-20AA-403D-A9C1-B2604FDDB384}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="24"/>
+				<Prp name="key" type="S" value="{585663A8-20AA-403D-A9C1-B2604FDDB384}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000025">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="MatchBMDrag"/>
+					<Prp name="filename" type="S" value="Regions\MatchBMDrag.png"/>
+					<Prp name="id" type="S" value="{8032BF11-9AB0-4CAF-8A52-DCADAD5C5B77}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="25"/>
+				<Prp name="key" type="S" value="{8032BF11-9AB0-4CAF-8A52-DCADAD5C5B77}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000026">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="MatchCMDrag"/>
+					<Prp name="filename" type="S" value="Regions\MatchCMDrag.png"/>
+					<Prp name="id" type="S" value="{5884DE89-CF43-4AC8-97FF-AB42574CA30E}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="26"/>
+				<Prp name="key" type="S" value="{5884DE89-CF43-4AC8-97FF-AB42574CA30E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000027">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="NumericSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\NumericSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{921929F7-08A6-4B97-83D5-B45176DD6B1B}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="27"/>
+				<Prp name="key" type="S" value="{921929F7-08A6-4B97-83D5-B45176DD6B1B}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000028">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="NumericEntryBox"/>
+					<Prp name="filename" type="S" value="Regions\NumericEntryBox.png"/>
+					<Prp name="id" type="S" value="{94A983C3-A244-4202-BCEF-E4C325C4AABB}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="28"/>
+				<Prp name="key" type="S" value="{94A983C3-A244-4202-BCEF-E4C325C4AABB}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000029">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="GradedHotspotSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\GradedHotspotSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{7596A305-D2A5-4691-8DD2-9CE9FF8A7D97}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="29"/>
+				<Prp name="key" type="S" value="{7596A305-D2A5-4691-8DD2-9CE9FF8A7D97}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000030">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="RedTulip"/>
+					<Prp name="filename" type="S" value="Regions\RedTulip.png"/>
+					<Prp name="id" type="S" value="{4A92FFCD-C333-4F0B-8DF3-0C0E5F883AA5}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="30"/>
+				<Prp name="key" type="S" value="{4A92FFCD-C333-4F0B-8DF3-0C0E5F883AA5}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000031">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="LikertScaleSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\LikertScaleSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{8BDEF1E3-4905-4DE4-B6E0-F9B56B89C4CD}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="31"/>
+				<Prp name="key" type="S" value="{8BDEF1E3-4905-4DE4-B6E0-F9B56B89C4CD}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000032">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="LikertStatement1"/>
+					<Prp name="filename" type="S" value="Regions\LikertStatement1.png"/>
+					<Prp name="id" type="S" value="{7DEDCB97-7627-4AFD-808A-3E5B0FCEC555}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="32"/>
+				<Prp name="key" type="S" value="{7DEDCB97-7627-4AFD-808A-3E5B0FCEC555}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000033">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="LikertStatement2"/>
+					<Prp name="filename" type="S" value="Regions\LikertStatement2.png"/>
+					<Prp name="id" type="S" value="{B7A52179-ABB0-4440-B4B8-AD5E2C0FBF43}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="33"/>
+				<Prp name="key" type="S" value="{B7A52179-ABB0-4440-B4B8-AD5E2C0FBF43}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000034">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="LikertStatement3"/>
+					<Prp name="filename" type="S" value="Regions\LikertStatement3.png"/>
+					<Prp name="id" type="S" value="{440BAC8B-52F8-46FE-83B5-24B9316386A9}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="-1"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="34"/>
+				<Prp name="key" type="S" value="{440BAC8B-52F8-46FE-83B5-24B9316386A9}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000035">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="LikertStatement4"/>
+					<Prp name="filename" type="S" value="Regions\LikertStatement4.png"/>
+					<Prp name="id" type="S" value="{9DA9328C-4AA1-412C-894B-3215D583D562}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="35"/>
+				<Prp name="key" type="S" value="{9DA9328C-4AA1-412C-894B-3215D583D562}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000036">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="Statement1"/>
+					<Prp name="filename" type="S" value="Regions\Statement1.png"/>
+					<Prp name="id" type="S" value="{F3B32EC9-DFB3-4E76-B70A-C24114C7BCE1}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="36"/>
+				<Prp name="key" type="S" value="{F3B32EC9-DFB3-4E76-B70A-C24114C7BCE1}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000037">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="Statement2"/>
+					<Prp name="filename" type="S" value="Regions\Statement2.png"/>
+					<Prp name="id" type="S" value="{2F087BE9-50B2-483A-91F1-B3C7139EEAD6}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="37"/>
+				<Prp name="key" type="S" value="{2F087BE9-50B2-483A-91F1-B3C7139EEAD6}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000038">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="Statement1Drag"/>
+					<Prp name="filename" type="S" value="Regions\Statement1Drag.png"/>
+					<Prp name="id" type="S" value="{C01A82D4-2D9A-4BC4-B0C2-89E29EB59E12}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="38"/>
+				<Prp name="key" type="S" value="{C01A82D4-2D9A-4BC4-B0C2-89E29EB59E12}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000039">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="TypeYourTextHereEssay"/>
+					<Prp name="filename" type="S" value="Regions\TypeYourTextHereEssay.png"/>
+					<Prp name="id" type="S" value="{B0CF1E25-F0DA-4445-A224-D041A8A1B711}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="39"/>
+				<Prp name="key" type="S" value="{B0CF1E25-F0DA-4445-A224-D041A8A1B711}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000040">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="FreeformHotspotSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\FreeformHotspotSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{B3769E06-481B-45CE-BDDB-617594309ADF}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="40"/>
+				<Prp name="key" type="S" value="{B3769E06-481B-45CE-BDDB-617594309ADF}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000041">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="RedTulipBig"/>
+					<Prp name="filename" type="S" value="Regions\RedTulipBig.png"/>
+					<Prp name="id" type="S" value="{87DB85C7-1619-43F9-9DFB-49904D14F3D2}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="41"/>
+				<Prp name="key" type="S" value="{87DB85C7-1619-43F9-9DFB-49904D14F3D2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000042">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="PickOneSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\PickOneSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{1BDC7C52-29BA-42E9-97E5-50206E034DD2}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="42"/>
+				<Prp name="key" type="S" value="{1BDC7C52-29BA-42E9-97E5-50206E034DD2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000043">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="PickManySlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\PickManySlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{B176AB73-286F-46AB-837B-4E648F12CD0F}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="43"/>
+				<Prp name="key" type="S" value="{B176AB73-286F-46AB-837B-4E648F12CD0F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000044">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="WhichWordSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\WhichWordSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{9148E860-4730-43EA-92F3-C86611F8E6D2}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="44"/>
+				<Prp name="key" type="S" value="{9148E860-4730-43EA-92F3-C86611F8E6D2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000045">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="ShortAnswerSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\ShortAnswerSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{E690342E-63FF-4F3F-BAFD-CC06A319427A}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="45"/>
+				<Prp name="key" type="S" value="{E690342E-63FF-4F3F-BAFD-CC06A319427A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000046">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="EssaySlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\EssaySlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{75F54483-1BA4-4959-877B-7B040C694F25}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="46"/>
+				<Prp name="key" type="S" value="{75F54483-1BA4-4959-877B-7B040C694F25}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000047">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="HowManySlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\HowManySlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{5A80104A-FF06-4F8B-824E-8F78D67D8B5F}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="47"/>
+				<Prp name="key" type="S" value="{5A80104A-FF06-4F8B-824E-8F78D67D8B5F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000048">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="FreeformDragDropSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\FreeformDragDropSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{BE2F4F83-5433-4D3F-B73C-3625AA0426C1}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="48"/>
+				<Prp name="key" type="S" value="{BE2F4F83-5433-4D3F-B73C-3625AA0426C1}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000049">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="FreeformPickOneSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\FreeformPickOneSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{65225C5D-9D7C-4220-AEB4-587CCCD8EF27}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="49"/>
+				<Prp name="key" type="S" value="{65225C5D-9D7C-4220-AEB4-587CCCD8EF27}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000050">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="FreeformPickManySlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\FreeformPickManySlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{0E9654FF-A24C-40C8-AEDB-A66D23410E3E}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="50"/>
+				<Prp name="key" type="S" value="{0E9654FF-A24C-40C8-AEDB-A66D23410E3E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000051">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="DragDropRectangle"/>
+					<Prp name="filename" type="S" value="Regions\DragDropRectangle.png"/>
+					<Prp name="id" type="S" value="{6957AC5D-6CEB-4FCC-B771-B43BE6BFAD1F}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="51"/>
+				<Prp name="key" type="S" value="{6957AC5D-6CEB-4FCC-B771-B43BE6BFAD1F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000052">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="DragDropRoundedRectangle"/>
+					<Prp name="filename" type="S" value="Regions\DragDropRoundedRectangle.png"/>
+					<Prp name="id" type="S" value="{840B5CF9-A4BB-4906-A10B-9F9612E46728}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="52"/>
+				<Prp name="key" type="S" value="{840B5CF9-A4BB-4906-A10B-9F9612E46728}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000053">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="DragDropTrapezoid"/>
+					<Prp name="filename" type="S" value="Regions\DragDropTrapezoid.png"/>
+					<Prp name="id" type="S" value="{0BFA18A5-2174-45E3-9048-097F22DBB394}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="53"/>
+				<Prp name="key" type="S" value="{0BFA18A5-2174-45E3-9048-097F22DBB394}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000054">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="DragDropTriangle"/>
+					<Prp name="filename" type="S" value="Regions\DragDropTriangle.png"/>
+					<Prp name="id" type="S" value="{42BD2C61-AED9-4AA6-A666-9E1FDAA5D6D8}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="54"/>
+				<Prp name="key" type="S" value="{42BD2C61-AED9-4AA6-A666-9E1FDAA5D6D8}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000055">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="PickOneRectangle"/>
+					<Prp name="filename" type="S" value="Regions\PickOneRectangle.png"/>
+					<Prp name="id" type="S" value="{F6B78AAB-4C48-42C9-9263-C5CDEF50E44A}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="55"/>
+				<Prp name="key" type="S" value="{F6B78AAB-4C48-42C9-9263-C5CDEF50E44A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000056">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="PickManyRectangle"/>
+					<Prp name="filename" type="S" value="Regions\PickManyRectangle.png"/>
+					<Prp name="id" type="S" value="{59113768-551A-48C5-978A-660FA28E533C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="56"/>
+				<Prp name="key" type="S" value="{59113768-551A-48C5-978A-660FA28E533C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000057">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="PickManySmile"/>
+					<Prp name="filename" type="S" value="Regions\PickManySmile.png"/>
+					<Prp name="id" type="S" value="{3035B493-E789-4D0D-8F2C-5EA8FAFE9E7C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="57"/>
+				<Prp name="key" type="S" value="{3035B493-E789-4D0D-8F2C-5EA8FAFE9E7C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000058">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="TextEntrySlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\TextEntrySlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{A65A541B-8573-4B98-89B4-75D08C4AA0D6}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="58"/>
+				<Prp name="key" type="S" value="{A65A541B-8573-4B98-89B4-75D08C4AA0D6}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000059">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="TypeYourTextHereTextEntry"/>
+					<Prp name="filename" type="S" value="Regions\TypeYourTextHereTextEntry.png"/>
+					<Prp name="id" type="S" value="{36941B43-202E-4D4C-849D-DABB3B8B1462}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="59"/>
+				<Prp name="key" type="S" value="{36941B43-202E-4D4C-849D-DABB3B8B1462}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000060">
+				<Node name="item data">
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="9.0"/>
+					</Node>
+					<Prp name="caption" type="S" value="AllQuestionsResultSlideWebOutput"/>
+					<Prp name="filename" type="S" value="Regions\AllQuestionsResultSlideWebOutput.png"/>
+					<Prp name="id" type="S" value="{C5F68360-F6FD-4E8B-B06C-110ACCBDCA3A}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="60"/>
+				<Prp name="key" type="S" value="{C5F68360-F6FD-4E8B-B06C-110ACCBDCA3A}"/>
 				<Prp name="pluginname" type="S" value="Stores"/>
 				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
 				<Prp name="typename" type="S" value="Region"/>

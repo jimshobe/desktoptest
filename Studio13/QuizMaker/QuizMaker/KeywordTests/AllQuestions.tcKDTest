@@ -36,16 +36,24 @@
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertWordBank" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDragDrop" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDragDrop" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDropDown" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertMatchingDropDown" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertSequenceDragAndDrop" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertSequenceDragAndDrop" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertSequenceDropDown" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertSequenceDropDown" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertNumeric" Unit="QuizMakerFunctions" />
@@ -72,10 +80,14 @@
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertEssay" Unit="QuizMakerFunctions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertRankingDragDrop" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertRankingDragDrop" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertRankingDropDown" Unit="QuizMakerFunctions" />
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertRankingDropDown" Unit="QuizMakerFunctions">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="InsertHowMany" Unit="QuizMakerFunctions" />
@@ -117,8 +129,63 @@
 				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyWordBank" Unit="VerifyAllQuestions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="QMSaveAndExit" Unit="QuizMakerFunctions">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyMatchingDragDrop" Unit="VerifyAllQuestions">
 					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyNumeric" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyGradedHotspot" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyLikertScale" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyPickOne" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyPickMany" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyWhichWord" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyShortAnswer" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyEssay" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyHowMany" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyFreeformDragDrop" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyFreeformPickOne" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyFreeformPickMany" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyTextEntry" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyFreeformHotspot" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="VerifyAllQuestionsResultsSlide" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="CloseInternetExplorer" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="ClosePublishWindow" Unit="VerifyAllQuestions" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs&#32;a&#32;script&#32;routine." TestName="QMSaveAndExit" Unit="QuizMakerFunctions">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 						<Parameter Name="filename" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="QmBvt.quiz" />
 					</Parameters>
