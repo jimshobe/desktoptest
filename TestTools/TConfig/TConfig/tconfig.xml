@@ -6,6 +6,7 @@
       <ResultsOutputPath>c:\TestResults</ResultsOutputPath>
 	  <TestDataDir>C:\git\desktoptest\Studio13\test_files</TestDataDir>
 	  <WebRoot>http://skytap.articulatetest.com/</WebRoot>
+	  <WorkspaceRoot>C:\Users\jamsho\AppData\Roaming\Articulate\Quizmaker</WorkspaceRoot>
 	  <MailResults>
 		<Send>True</Send>
 		<SendTo>jshobe@articulate.com</SendTo>

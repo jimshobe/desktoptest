@@ -21,6 +21,7 @@ namespace TConfig
         private string m_xSendMailTo = "Studio13/TestEnvironment/MailResults/SendTo";
         private string m_xSendMailFrom = "Studio13/TestEnvironment/MailResults/SendFrom";
         private string m_xWebRoot = "Studio13/TestEnvironment/WebRoot";
+        private string m_xWorkspaceRoot = "Studio13/TestEnvironment/WorkspaceRoot";
 
         public TConfig(string path)
         {
@@ -207,6 +208,20 @@ namespace TConfig
             {
                 throw new Exception("Error in SendMailFrom: " + e.InnerException);
             }
+        }
+
+        public string GetWorkspaceRoot()
+        {
+            try
+            {
+                XmlNode root = m_doc.DocumentElement;
+                return root.SelectSingleNode(m_xWorkspaceRoot).InnerText;
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error in GetWorkspaceRoot: " + e.InnerException);
+            }
+
         }
 
     }
